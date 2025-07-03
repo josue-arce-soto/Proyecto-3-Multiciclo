@@ -35,3 +35,24 @@ control_multicycle.sv  -   Unidad de control con FSM que genera señales por eta
 4- Los resultados se almacenan en registros intermedios (ALUOut, MDR) y luego se escriben en el registro destino.  
 
 ## ℹ️ Prueba 
+EL programa usa 3 instrucciones de prueba  
+
+# addi x1, x0, 5  
+93  
+00  
+50  
+00  
+
+# addi x2, x1, 10  
+13  
+01  
+A0  
+00  
+
+# add  x3, x1, x2  
+B3  
+81  
+A0  
+00  
+
+el testbench muestra si la ejecucion fue correcta  
