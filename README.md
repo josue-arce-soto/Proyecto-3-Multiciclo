@@ -1,3 +1,5 @@
+## Estudiante: Josué Arce Soto
+
 ## 🧠 Procesador RISC-V Multiciclo – Proyecto Verilog
 
 Este proyecto implementa un procesador RISC-V multiciclo en Verilog, compatible con el conjunto de instrucciones RV32I básico (add, lw, sw, addi, etc.).
