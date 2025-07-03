@@ -103,7 +103,7 @@ module top #(parameter WIDTH=32, parameter DEPTH=5) (
     .clk(clk), .rst(rst), .data_in(data_mem_data), .wr(mdr_write), .data_out(MDR)
   );
 
-  // CONTROL UNIT
+  // CONTROL UNIT WRITE BACK
   control_multicycle control (
     .clk(clk), .rst(rst), .opcode(opcode),
     .pc_write(pc_write), .ir_write(ir_write), .reg_write(reg_write),
